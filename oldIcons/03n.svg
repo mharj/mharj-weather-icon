@@ -1,0 +1,105 @@
+<svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="128" height="128" id="svg3513" version="1.1" inkscape:version="0.91" sodipodi:docname="1">
+  <style id="style5276">
+	.cloud_move {
+		transform-origin: 64px 64px;
+		-webkit-transform-origin: 50% 50%;	
+		-webkit-animation:cloudmove 30s linear infinite;
+		-moz-animation:cloudmove 30s linear infinite;
+		animation:cloudmove 30s linear infinite;		
+	}
+	.cloud_move2 {
+		transform-origin: 64px 64px;
+		-webkit-transform-origin: 50% 50%;	
+		-webkit-animation:cloudmove 30s linear infinite;
+		-moz-animation:cloudmove 30s linear infinite;
+		animation:cloudmove 30s linear infinite;		
+		-webkit-animation-delay: 15s;
+		-moz-animation-delay: 15s;
+		animation-delay: 15s;
+		fill-opacity:0.0;
+		stroke-opacity:0.0;
+		opacity: 0;
+		-webkit-animation-fill-mode: forwards;
+	}	
+	.big_cloud_move {
+		-webkit-animation-delay: 10s;
+		-moz-animation-delay: 10s;
+		animation-delay: 10s;
+		transform-origin: 64px 64px;
+		-webkit-transform-origin: 50% 50%;	
+		-webkit-animation:cloudmove 75s linear infinite;
+		-moz-animation:cloudmove 75s linear infinite;
+		animation:cloudmove 75s linear infinite;		
+	}
+	.big_cloud_move2 {
+		-webkit-animation-delay: 10s;
+		-moz-animation-delay: 10s;
+		animation-delay: 10s;
+		transform-origin: 64px 64px;
+		-webkit-transform-origin: 50% 50%;	
+		-webkit-animation:cloudmove 75s linear infinite;
+		-moz-animation:cloudmove 75s linear infinite;
+		animation:cloudmove 75s linear infinite;
+		-webkit-animation-delay: 37s;
+		-moz-animation-delay: 37s;
+		animation-delay: 37s;
+		fill-opacity:0.0;
+		stroke-opacity:0.0;
+		opacity: 0;
+		-webkit-animation-fill-mode: forwards;		
+	}	
+	@-moz-keyframes cloudmove { 
+		0% { -moz-transform: translate(50px,0);fill-opacity:0.0; }
+		50% { fill-opacity:1.0;}
+		100% { -moz-transform: translate(-100px,0);fill-opacity:0.0; } 
+	}
+	@-webkit-keyframes cloudmove { 
+		0% { -webkit-transform: translate(50px,0);fill-opacity:0.0; } 
+		50% { fill-opacity:1.0;}
+		100% { -webkit-transform: translate(-100px,0);fill-opacity:0.0; } 
+	}
+	@keyframes cloudmove { 
+		0% { -webkit-transform: translate(50px,0); transform:translate(50px,0); fill-opacity:0.0;stroke-opacity:0.0;opacity: 1}
+		50% { fill-opacity:1.0;stroke-opacity:1.0;}
+		100% { -webkit-transform: translate(-100px,0); transform:translate(-100px,0); fill-opacity:0.0;stroke-opacity:0.0; }
+	}
+	
+  
+  </style>
+  <defs id="defs3515">
+    <filter inkscape:collect="always" id="filter4755" x="-0.19" width="1.39" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur inkscape:collect="always" stdDeviation="4.62" id="feGaussianBlur4757"/>
+    </filter>
+    <filter id="filter4443" x="-0.14" width="1.28" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.61" id="feGaussianBlur4445"/>
+    </filter>	
+    <linearGradient id="linearGradient5409-899" osb:paint="solid">
+      <stop offset="0" id="stop5411-799" style="stop-color:#808000;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient5409-69">
+      <stop offset="0" id="stop5411-42" style="stop-color:#000000;stop-opacity:1"/>
+    </linearGradient>	
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient5409-899" id="linearGradient8588" gradientUnits="userSpaceOnUse" x1="-272.1" y1="461.13" x2="-191.47" y2="461.13"/>
+	<linearGradient xlink:href="#linearGradient5409-69" id="linearGradient7501" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+  </defs>
+  <g id="moongroup" transform="translate(292.98245,-396.49123)">
+    <path d="m-220.27 421.13c-22.09 0-40 17.91-40 40 0 22.09 17.91 40 40 40 6.07 0 11.82-1.36 16.97-3.78-13.6-6.39-23.03-20.2-23.03-36.22 0-16.02 9.43-29.83 23.03-36.22-5.15-2.42-10.9-3.78-16.97-3.78z" id="moon_shadow" inkscape:connector-curvature="0" style="fill-rule:nonzero;fill:url(#linearGradient8588);filter:url(#filter4755);opacity:0.6"/>
+    <path id="moon" d="m-220.27 421.13c-22.09 0-40 17.91-40 40 0 22.09 17.91 40 40 40 6.07 0 11.82-1.36 16.97-3.78-13.6-6.39-23.03-20.2-23.03-36.22 0-16.02 9.43-29.83 23.03-36.22-5.15-2.42-10.9-3.78-16.97-3.78z" inkscape:connector-curvature="0" style="fill-rule:nonzero;fill:#fff"/>
+  </g>
+  <g id="cloud" transform="matrix(1.5438364,0,0,1.8349994,660.63501,-1241.6733)">
+    <path class="big_cloud_move" d="m-388.57 695.2c-0.68 0-1.41 0.03-2.16 0.13-11.86 1.49-11.5 11.44-11.5 11.44-4.86 0.81-8.81 4.95-8.81 9.28 0 4.33 5.06 8.17 9.31 9.28 2.53 0.66 5.84 0 5.84 0 1.5 2.59 6.45 4.31 9.91 4.31 5.63 0 11.42-1.83 12.75-4.31 0 0 23.32 1.82 28.16 0 7.05-2.65 4.84-10.95 0.16-13.75-4.69-2.8-10.81-0.84-10.81-0.84 0 0-0.03-5.71-6.66-8.44-6.63-2.73-12.22 3.31-12.22 3.31 0 0-3.71-10.34-13.97-10.41z" id="cloud_shadow" style="fill-rule:nonzero;fill:url(#linearGradient7501);filter:url(#filter4443);opacity:0.6"/>
+    <path class="big_cloud_move" id="path3253" d="m-388.57 695.2c-0.68 0-1.41 0.03-2.16 0.13-11.86 1.49-11.5 11.44-11.5 11.44-4.86 0.81-8.81 4.95-8.81 9.28 0 4.33 5.06 8.17 9.31 9.28 2.53 0.66 5.84 0 5.84 0 1.5 2.59 6.45 4.31 9.91 4.31 5.63 0 11.42-1.83 12.75-4.31 0 0 23.32 1.82 28.16 0 7.05-2.65 4.84-10.95 0.16-13.75-4.69-2.8-10.81-0.84-10.81-0.84 0 0-0.03-5.71-6.66-8.44-6.63-2.73-12.22 3.31-12.22 3.31 0 0-3.71-10.34-13.97-10.41z" style="fill-rule:nonzero;fill:#fffaff"/>
+  </g>
+  <g id="g_big_cloud2" transform="matrix(1.5438364,0,0,1.8349994,660.63501,-1241.6733)">
+    <path class="big_cloud_move2" d="m-388.57 695.2c-0.68 0-1.41 0.03-2.16 0.13-11.86 1.49-11.5 11.44-11.5 11.44-4.86 0.81-8.81 4.95-8.81 9.28 0 4.33 5.06 8.17 9.31 9.28 2.53 0.66 5.84 0 5.84 0 1.5 2.59 6.45 4.31 9.91 4.31 5.63 0 11.42-1.83 12.75-4.31 0 0 23.32 1.82 28.16 0 7.05-2.65 4.84-10.95 0.16-13.75-4.69-2.8-10.81-0.84-10.81-0.84 0 0-0.03-5.71-6.66-8.44-6.63-2.73-12.22 3.31-12.22 3.31 0 0-3.71-10.34-13.97-10.41z" id="big_cloud_shadow_2" style="fill-rule:nonzero;fill:url(#linearGradient7501);filter:url(#filter4443);opacity:0.6"/>
+    <path class="big_cloud_move2" id="big_cloud_2" d="m-388.57 695.2c-0.68 0-1.41 0.03-2.16 0.13-11.86 1.49-11.5 11.44-11.5 11.44-4.86 0.81-8.81 4.95-8.81 9.28 0 4.33 5.06 8.17 9.31 9.28 2.53 0.66 5.84 0 5.84 0 1.5 2.59 6.45 4.31 9.91 4.31 5.63 0 11.42-1.83 12.75-4.31 0 0 23.32 1.82 28.16 0 7.05-2.65 4.84-10.95 0.16-13.75-4.69-2.8-10.81-0.84-10.81-0.84 0 0-0.03-5.71-6.66-8.44-6.63-2.73-12.22 3.31-12.22 3.31 0 0-3.71-10.34-13.97-10.41z" style="fill-rule:nonzero;fill:#fffaff"/>
+  </g>
+    <g id="cloud-5" transform="matrix(0.94254193,0,0,1.1215266,436.10346,-711.67552)">
+    <path class="cloud_move" d="m-388.57 695.2c-0.68 0-1.41 0.03-2.16 0.13-11.86 1.49-11.5 11.44-11.5 11.44-4.86 0.81-8.81 4.95-8.81 9.28 0 4.33 5.06 8.17 9.31 9.28 2.53 0.66 5.84 0 5.84 0 1.5 2.59 6.45 4.31 9.91 4.31 5.63 0 11.42-1.83 12.75-4.31 0 0 23.32 1.82 28.16 0 7.05-2.65 4.84-10.95 0.16-13.75-4.69-2.8-10.81-0.84-10.81-0.84 0 0-0.03-5.71-6.66-8.44-6.63-2.73-12.22 3.31-12.22 3.31 0 0-3.71-10.34-13.97-10.41z" id="cloud_shadow-1" style="fill-rule:nonzero;fill:url(#linearGradient10123);filter:url(#filter4443-6);opacity:0.6"/>
+    <path class="cloud_move" id="cloud-1" d="m-388.57 695.2c-0.68 0-1.41 0.03-2.16 0.13-11.86 1.49-11.5 11.44-11.5 11.44-4.86 0.81-8.81 4.95-8.81 9.28 0 4.33 5.06 8.17 9.31 9.28 2.53 0.66 5.84 0 5.84 0 1.5 2.59 6.45 4.31 9.91 4.31 5.63 0 11.42-1.83 12.75-4.31 0 0 23.32 1.82 28.16 0 7.05-2.65 4.84-10.95 0.16-13.75-4.69-2.8-10.81-0.84-10.81-0.84 0 0-0.03-5.71-6.66-8.44-6.63-2.73-12.22 3.31-12.22 3.31 0 0-3.71-10.34-13.97-10.41z" style="fill-rule:nonzero;fill:#fffaff"/>
+  </g>
+  <g id="cloud-5" transform="matrix(0.94254193,0,0,1.1215266,436.10346,-711.67552)">
+    <path class="cloud_move2" d="m-388.57 695.2c-0.68 0-1.41 0.03-2.16 0.13-11.86 1.49-11.5 11.44-11.5 11.44-4.86 0.81-8.81 4.95-8.81 9.28 0 4.33 5.06 8.17 9.31 9.28 2.53 0.66 5.84 0 5.84 0 1.5 2.59 6.45 4.31 9.91 4.31 5.63 0 11.42-1.83 12.75-4.31 0 0 23.32 1.82 28.16 0 7.05-2.65 4.84-10.95 0.16-13.75-4.69-2.8-10.81-0.84-10.81-0.84 0 0-0.03-5.71-6.66-8.44-6.63-2.73-12.22 3.31-12.22 3.31 0 0-3.71-10.34-13.97-10.41z" id="cloud_shadow-2" style="fill-rule:nonzero;fill:url(#linearGradient10123);filter:url(#filter4443-6);opacity:0.6"/>
+    <path class="cloud_move2" id="cloud-2" d="m-388.57 695.2c-0.68 0-1.41 0.03-2.16 0.13-11.86 1.49-11.5 11.44-11.5 11.44-4.86 0.81-8.81 4.95-8.81 9.28 0 4.33 5.06 8.17 9.31 9.28 2.53 0.66 5.84 0 5.84 0 1.5 2.59 6.45 4.31 9.91 4.31 5.63 0 11.42-1.83 12.75-4.31 0 0 23.32 1.82 28.16 0 7.05-2.65 4.84-10.95 0.16-13.75-4.69-2.8-10.81-0.84-10.81-0.84 0 0-0.03-5.71-6.66-8.44-6.63-2.73-12.22 3.31-12.22 3.31 0 0-3.71-10.34-13.97-10.41z" style="fill-rule:nonzero;fill:#fffaff"/>
+  </g>
+</svg>

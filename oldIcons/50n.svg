@@ -1,0 +1,80 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" id="svg3513" version="1.1">
+  <style>
+	#mist_cloud_1 > .mist_cloud_group {
+		-webkit-animation: wave 30s ease-in-out infinite alternate;
+		animation: wave 30s ease-in-out infinite alternate;
+	}
+	#mist_cloud_2 > .mist_cloud_group {
+		-webkit-animation: wave 30s ease-in-out infinite alternate-reverse;
+		animation: wave 30s ease-in-out infinite alternate-reverse;
+	}
+	#mist_cloud_3 > .mist_cloud_group {
+		-webkit-animation: wave 30s ease-in-out infinite alternate-reverse;
+		animation: wave 30s ease-in-out infinite alternate;
+	}
+	#mist_cloud_4 > .mist_cloud_group {
+		-webkit-animation: wave 30s ease-in-out infinite alternate;
+		animation: wave 30s ease-in-out infinite alternate;
+	}	
+	
+	@-moz-keyframes wave { 
+		100% {
+			-moz-transform: transform:translate(64px,0); 
+		}
+	}
+	@-webkit-keyframes wave {
+		100% {
+			-webkit-transform: transform:translate(64px,0); 
+		} 
+	}
+	@keyframes wave {
+		0% {
+			-webkit-transform: translate(0,0); 
+			transform: translate(16px,0);
+		}	
+		100% {
+			-webkit-transform: translate(164px,0); 
+			transform: translate(-16px,0);
+		}
+	}	
+  </style>
+  <g id="moongroup" transform="translate(292.98245,-396.49123)">
+    <path d="m-220.27 421.13c-22.09 0-40 17.91-40 40 0 22.09 17.91 40 40 40 6.07 0 11.82-1.36 16.97-3.78-13.6-6.39-23.03-20.2-23.03-36.22 0-16.02 9.43-29.83 23.03-36.22-5.15-2.42-10.9-3.78-16.97-3.78z" id="moon_shadow" style="fill-rule:nonzero;fill:url(#linearGradient8588);filter:url(#filter4755);opacity:0.6"/>
+    <path id="moon" d="m-220.27 421.13c-22.09 0-40 17.91-40 40 0 22.09 17.91 40 40 40 6.07 0 11.82-1.36 16.97-3.78-13.6-6.39-23.03-20.2-23.03-36.22 0-16.02 9.43-29.83 23.03-36.22-5.15-2.42-10.9-3.78-16.97-3.78z" style="fill-rule:nonzero;fill:#fff"/>
+  </g>  
+  <g id="mist_cloud_1" transform="translate(64,60) scale(0.5,0.5)">
+	<g id="mist_cloud_group" class="mist_cloud_group">
+		<path id="mist_cloud_shadow" d="M 0,0 C -23,0 -41.5,1.4 -41.5,3.2 -41.5,5 -22.9,6.5 0,6.5 23,6.5 41.6,5 41.6,3.2 41.6,1.4 23,0 0,0 Z" style="fill-rule:nonzero;fill:url(#linearGradient8653);filter:url(#filter4443);opacity:0.6" />
+		<path id="mist_cloud" d="M 0,0 C -23,0 -41.5,1.4 -41.5,3.2 -41.5,5 -22.9,6.5 0,6.5 23,6.5 41.6,5 41.6,3.2 41.6,1.4 23,0 0,0 Z" style="fill:#ffffff;fill-opacity:1"/>
+	</g>
+  </g>
+  <g id="mist_cloud_2" transform="translate(32,65)">
+	<use xlink:href="#mist_cloud_group" class="mist_cloud_group" />
+  </g>
+  <g id="mist_cloud_3" transform="translate(32,73)">
+	<use xlink:href="#mist_cloud_group" class="mist_cloud_group" />
+  </g>
+  <g id="mist_cloud_4" transform="translate(64,80) scale(0.5,0.5)">
+	<use xlink:href="#mist_cloud_group" class="mist_cloud_group" />
+  </g>
+  <g id="mist_cloud_4" transform="translate(45,86) scale(1.2,1.2)">
+	<use xlink:href="#mist_cloud_group" />
+  </g>  
+  <metadata id="metadata4153"/>
+  <defs id="defs3515">
+    <filter id="filter4443" x="-0.14" width="1.28" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.61" id="feGaussianBlur4445"/>
+    </filter>
+    <linearGradient id="linearGradient5409-69">
+      <stop offset="0" id="stop5411-42" style="stop-color:#000000;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#linearGradient5409-69" id="linearGradient8653" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+    <filter id="filter4755" x="-0.19" width="1.39" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.62" id="feGaussianBlur4757"/>
+    </filter>
+    <linearGradient id="linearGradient5409-899">
+      <stop offset="0" id="stop5411-799" style="stop-color:#808000;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#linearGradient5409-899" id="linearGradient8588" gradientUnits="userSpaceOnUse" x1="-272.1" y1="461.13" x2="-191.47" y2="461.13"/>	
+  </defs>
+</svg>

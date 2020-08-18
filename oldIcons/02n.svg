@@ -1,0 +1,50 @@
+<svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="128" height="128" id="svg3513" version="1.1" inkscape:version="0.91" sodipodi:docname="1">
+  <style id="style5276">
+	.cloud_move {
+		transform-origin: 64px 64px;
+		-webkit-transform-origin: 50% 50%;	
+		-webkit-animation:cloudmove 30s linear infinite;
+		-moz-animation:cloudmove 30s linear infinite;
+		animation:cloudmove 30s linear infinite;		
+	}
+	@-moz-keyframes cloudmove { 
+		0% { -moz-transform: translate(50px,0);fill-opacity:0.0; }
+		50% { fill-opacity:1.0;}
+		100% { -moz-transform: translate(-100px,0);fill-opacity:0.0; } 
+	}
+	@-webkit-keyframes cloudmove { 
+		0% { -webkit-transform: translate(50px,0);fill-opacity:0.0; } 
+		50% { fill-opacity:1.0;}
+		100% { -webkit-transform: translate(-100px,0);fill-opacity:0.0; } 
+	}
+	@keyframes cloudmove { 
+		0% { -webkit-transform: translate(50px,0); transform:translate(50px,0); fill-opacity:0.0;stroke-opacity:0.0;}
+		50% { fill-opacity:1.0;stroke-opacity:1.0;}
+		100% { -webkit-transform: translate(-100px,0); transform:translate(-100px,0); fill-opacity:0.0;stroke-opacity:0.0; }
+	}
+  </style>
+  <defs id="defs3515">
+    <filter inkscape:collect="always" id="filter4755" x="-0.19" width="1.39" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur inkscape:collect="always" stdDeviation="4.62" id="feGaussianBlur4757"/>
+    </filter>
+    <filter id="filter4443" x="-0.14" width="1.28" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.61" id="feGaussianBlur4445"/>
+    </filter>	
+    <linearGradient id="linearGradient5409-899" osb:paint="solid">
+      <stop offset="0" id="stop5411-799" style="stop-color:#808000;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient5409-69">
+      <stop offset="0" id="stop5411-42" style="stop-color:#000000;stop-opacity:1"/>
+    </linearGradient>	
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient5409-899" id="linearGradient8588" gradientUnits="userSpaceOnUse" x1="-272.1" y1="461.13" x2="-191.47" y2="461.13"/>
+	<linearGradient xlink:href="#linearGradient5409-69" id="linearGradient7501" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+  </defs>
+  <g id="moongroup" transform="translate(292.98245,-396.49123)">
+    <path d="m-220.27 421.13c-22.09 0-40 17.91-40 40 0 22.09 17.91 40 40 40 6.07 0 11.82-1.36 16.97-3.78-13.6-6.39-23.03-20.2-23.03-36.22 0-16.02 9.43-29.83 23.03-36.22-5.15-2.42-10.9-3.78-16.97-3.78z" id="moon_shadow" inkscape:connector-curvature="0" style="fill-rule:nonzero;fill:url(#linearGradient8588);filter:url(#filter4755);opacity:0.6"/>
+    <path id="moon" d="m-220.27 421.13c-22.09 0-40 17.91-40 40 0 22.09 17.91 40 40 40 6.07 0 11.82-1.36 16.97-3.78-13.6-6.39-23.03-20.2-23.03-36.22 0-16.02 9.43-29.83 23.03-36.22-5.15-2.42-10.9-3.78-16.97-3.78z" inkscape:connector-curvature="0" style="fill-rule:nonzero;fill:#fff"/>
+  </g>
+  <g id="cloud" transform="translate(463.31337,-630.53207)">
+    <path class="cloud_move" d="m-388.56876 695.20093c-0.68362 0-1.41363 0.032-2.15625 0.125-11.86 1.492-11.5 11.4375-11.5 11.4375-4.85767 0.807-8.8125 4.9493-8.8125 9.2812 0 4.3318 5.05982 8.1665 9.3125 9.2813 2.52965 0.6631 5.84375 0 5.84375 0 1.50162 2.5882 6.45323 4.3125 9.90625 4.3125 5.63035 0 11.41728-1.8258 12.75-4.3125 0 0 23.31676 1.8236 28.15619 0 7.04519-2.6548 4.84386-10.9457 0.15625-13.75-4.68757-2.8043-10.81244-0.8438-10.81244-0.8438 0 0-0.0271-5.7092-6.65625-8.4375-6.62918-2.7282-12.21875 3.3125-12.21875 3.3125 0 0-3.71441-10.3444-13.96875-10.4062z" id="cloud_shadow" style="fill-rule:nonzero;fill:url(#linearGradient7501);filter:url(#filter4443);opacity:0.6"/>
+    <path class="cloud_move" id="path3253" d="m-388.56876 695.20093c-0.68362 0-1.41363 0.032-2.15625 0.125-11.86 1.492-11.5 11.4375-11.5 11.4375-4.85767 0.807-8.8125 4.9493-8.8125 9.2812 0 4.3318 5.05982 8.1665 9.3125 9.2813 2.52965 0.6631 5.84375 0 5.84375 0 1.50162 2.5882 6.45323 4.3125 9.90625 4.3125 5.63035 0 11.41728-1.8258 12.75-4.3125 0 0 23.31676 1.8236 28.15619 0 7.04519-2.6548 4.84386-10.9457 0.15625-13.75-4.68757-2.8043-10.81244-0.8438-10.81244-0.8438 0 0-0.0271-5.7092-6.65625-8.4375-6.62918-2.7282-12.21875 3.3125-12.21875 3.3125 0 0-3.71441-10.3444-13.96875-10.4062z" style="fill-opacity:1;fill-rule:nonzero;fill:#fffaff"/>
+  </g>    
+</svg>

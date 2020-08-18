@@ -1,0 +1,53 @@
+.weather-hide-layer {
+	fill-opacity: 0;
+}
+.weather-show-layer {
+	fill-opacity: 1;
+}
+
+.weather-sun {
+	fill-rule: nonzero;
+	fill: yellow;
+	-webkit-animation: spin 30s linear infinite;
+	-moz-animation: spin 30s linear infinite;
+	animation: spin 30s linear infinite;
+	transition: fill-opacity 5s linear;
+}
+.weather-sun-shadow {
+	fill-rule: nonzero;
+	fill: black;
+	opacity: 0.6;
+	filter: url(#weather-blur-filter);
+	-webkit-animation: spin 30s linear infinite;
+	-moz-animation: spin 30s linear infinite;
+	animation: spin 30s linear infinite;
+	transition: fill-opacity 5s linear;
+}
+.weather-moon {
+	fill-rule: nonzero;
+	fill: white;
+	transition: fill-opacity 5s linear;
+}
+.weather-moon-shadow {
+	fill-rule: nonzero;
+	fill: black;
+	opacity: 0.6;
+	filter: url(#weather-blur-filter);
+	transition: fill-opacity 5s linear;
+}
+
+@-moz-keyframes spin {
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}

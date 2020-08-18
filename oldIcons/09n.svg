@@ -1,0 +1,206 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" id="svg3513" version="1.1">
+  <style id="style5276">
+	.drop_move1 {
+		-webkit-animation:dropmove 1s linear infinite;
+		-moz-animation:dropmove 1s linear infinite;
+		animation:dropmove 1s linear infinite;
+		
+		-webkit-animation-delay: 1.0s;
+		-moz-animation-delay: 1.0s;
+		animation-delay: 1.0s;
+		
+		fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;
+	}
+	.drop_move2 {
+		-webkit-animation:dropmove 1s linear infinite;
+		-moz-animation:dropmove 1s linear infinite;
+		animation:dropmove 1s linear infinite;
+		
+		-webkit-animation-delay: 1.8s;
+		-moz-animation-delay: 1.8s;
+		animation-delay: 1.8s;
+		
+		fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;
+	}	
+	.drop_move3 {
+		-webkit-animation:dropmove 1s linear infinite;
+		-moz-animation:dropmove 1s linear infinite;
+		animation:dropmove 1s linear infinite;
+		
+		-webkit-animation-delay: 1.3s;
+		-moz-animation-delay: 1.3s;
+		animation-delay: 1.3s;
+		
+		fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;
+	}
+	.drop_move4 {
+		-webkit-animation:dropmove 1s linear infinite;
+		-moz-animation:dropmove 1s linear infinite;
+		animation:dropmove 1s linear infinite;
+		
+		-webkit-animation-delay: 1.6s;
+		-moz-animation-delay: 1.6s;
+		animation-delay: 1.6s;
+		
+		fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;
+	}
+	.drop_move5 {
+		-webkit-animation:dropmove 1s linear infinite;
+		-moz-animation:dropmove 1s linear infinite;
+		animation:dropmove 1s linear infinite;
+		
+		-webkit-animation-delay: 1.5s;
+		-moz-animation-delay:  1.5s;
+		animation-delay: 1.5s;
+		
+		fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;
+	}
+	.big_cloud_move {
+		-webkit-animation:cloudmove 60s linear infinite;
+		-moz-animation:cloudmove 60s linear infinite;
+		animation:cloudmove 60s linear infinite;
+		
+		-webkit-animation-delay: 0;
+		-moz-animation-delay: 0;
+		animation-delay: 0;
+		
+		fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;
+	}
+	.big_cloud_move2 {
+		-webkit-animation:cloudmove 60s linear infinite;
+		-moz-animation:cloudmove 60s linear infinite;
+		animation:cloudmove 60s linear infinite;
+
+		-webkit-animation-delay: 30s;
+		-moz-animation-delay: 30s;
+		animation-delay: 30s;
+		
+		fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;
+	}		
+	
+	@-moz-keyframes dropmove { 
+		0% { -moz-transform: translate(0,0); fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0; }
+		25% { fill-opacity:1.0;stroke-opacity:1.0;opacity: 1.0;}
+		90% { fill-opacity:1.0;stroke-opacity:1.0;opacity: 1.0;}
+		100% { -moz-transform: translate(0,40px);fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;} 
+	}
+	@-webkit-keyframes dropmove { 
+		0% { -webkit-transform: translate(0,0); fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0; } 
+		25% { fill-opacity:1.0;stroke-opacity:1.0;opacity: 1.0;}
+		90% { fill-opacity:1.0;stroke-opacity:1.0;opacity: 1.0;}
+		100% { -webkit-transform: translate(0,40px);fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0; } 
+	}
+	@keyframes dropmove { 
+		0% { -webkit-transform: translate(0,0); transform:translate(0,0); fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;}
+		25% { fill-opacity:1.0;stroke-opacity:1.0;opacity: 1.0;}
+		90% { fill-opacity:1.0;stroke-opacity:1.0;opacity: 1.0;}
+		100% { -webkit-transform: translate(0,40px); transform:translate(0,40px); fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0; }
+	}
+  	@-moz-keyframes cloudmove { 
+		0% { -moz-transform: translate(64px,0); fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;}
+		50% { fill-opacity:1.0;stroke-opacity:1.0;opacity: 1.0;}
+		100% { -moz-transform: translate(-64px,0); fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;} 
+	}
+	@-webkit-keyframes cloudmove { 
+		0% { -webkit-transform: translate(64px,0); fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;} 
+		50% { fill-opacity:1.0;stroke-opacity:1.0;opacity: 1.0;}
+		100% { -webkit-transform: translate(-64px,0); fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;} 
+	}
+	@keyframes cloudmove { 
+		0% { -webkit-transform: translate(64px,0); transform:translate(64px,0); fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;}
+		50% { fill-opacity:1.0;stroke-opacity:1.0;opacity: 1.0;}
+		100% { -webkit-transform: translate(-64px,0); transform:translate(-64px,0); fill-opacity:0.0;stroke-opacity:0.0;opacity: 0.0;}
+	}
+  </style>
+  <g id="cloud_main_1" class="big_cloud_move">
+	<g id="cloud_group_parts" transform="matrix(1.8,0,0,1.8,68,32)">
+		<g id="drop_group" transform="translate(0,10)">
+			<path id="drop1_shadow" d="m0 0c-3.5 3.4-9.3 13.8-3.6 15.4 5.7 1.5 5.3-11 3.6-15.4z" style="fill-rule:nonzero;fill:url(#linearGradient12946);filter:url(#filter4443);opacity:0.6" transform="scale(-1,1)"/>
+			<path id="drop1" d="m0 0c-3.5 3.4-9.3 13.8-3.6 15.4 5.7 1.5 5.3-11 3.6-15.4z" transform="scale(-1,1)"  fill="#fff"/>
+		</g>
+		<g id="drop1" transform="translate(-25,5)">
+			<use xlink:href="#drop1_shadow" class="drop_move1" />
+			<use xlink:href="#drop1" class="drop_move1" />
+		</g>
+		<g id="drop2" transform="translate(-13,5)">
+			<use xlink:href="#drop1_shadow" class="drop_move2" />
+			<use xlink:href="#drop1" class="drop_move2" />
+		</g>
+		<g id="drop3" transform="translate(0,5)">
+			<use xlink:href="#drop1_shadow" class="drop_move3" />
+			<use xlink:href="#drop1" class="drop_move3" />
+		</g>
+		<g id="drop4" transform="translate(13,5)">
+			<use xlink:href="#drop1_shadow" class="drop_move4" />
+			<use xlink:href="#drop1" class="drop_move4" />
+		</g>
+		<g id="drop5" transform="translate(25,5)">
+			<use xlink:href="#drop1_shadow" class="drop_move5" />
+			<use xlink:href="#drop1" class="drop_move5" />
+		</g>	
+		<g id="cloud_group">
+			<path id="cloud_shadow" class="cloud_move" d="m-15 0c-0.68362 0-1.41363 0.032-2.15625 0.125-11.86 1.492-11.5 11.4375-11.5 11.4375-4.85767 0.807-8.8125 4.9493-8.8125 9.2812 0 4.3318 5.05982 8.1665 9.3125 9.2813 2.52965 0.6631 5.84375 0 5.84375 0 1.50162 2.5882 6.45323 4.3125 9.90625 4.3125 5.63035 0 11.41728-1.8258 12.75-4.3125 0 0 23.31676 1.8236 28.15619 0 7.04519-2.6548 4.84386-10.9457 0.15625-13.75-4.68757-2.8043-10.81244-0.8438-10.81244-0.8438 0 0-0.0271-5.7092-6.65625-8.4375-6.62918-2.7282-12.21875 3.3125-12.21875 3.3125 0 0-3.71441-10.3444-13.96875-10.4062z" style="fill-rule:nonzero;fill:url(#linearGradient7501);filter:url(#filter4443);opacity:0.6"/>
+			<path id="cloud" class="cloud_move" d="m-15 0c-0.68362 0-1.41363 0.032-2.15625 0.125-11.86 1.492-11.5 11.4375-11.5 11.4375-4.85767 0.807-8.8125 4.9493-8.8125 9.2812 0 4.3318 5.05982 8.1665 9.3125 9.2813 2.52965 0.6631 5.84375 0 5.84375 0 1.50162 2.5882 6.45323 4.3125 9.90625 4.3125 5.63035 0 11.41728-1.8258 12.75-4.3125 0 0 23.31676 1.8236 28.15619 0 7.04519-2.6548 4.84386-10.9457 0.15625-13.75-4.68757-2.8043-10.81244-0.8438-10.81244-0.8438 0 0-0.0271-5.7092-6.65625-8.4375-6.62918-2.7282-12.21875 3.3125-12.21875 3.3125 0 0-3.71441-10.3444-13.96875-10.4062z" style="fill-opacity:1;fill-rule:nonzero;fill:#fffaff"/>
+		</g>
+	</g>
+  </g>
+  <g id="cloud_main_2" class="big_cloud_move2" >
+	<g id="cloud_group_parts_2" transform="matrix(1.8,0,0,1.8,68,32)">
+		<g id="drop1_2" transform="translate(-25,5)">
+			<use xlink:href="#drop1_shadow" class="drop_move1" />
+			<use xlink:href="#drop1" class="drop_move1" />
+		</g>
+		<g id="drop2_2" transform="translate(-13,5)">
+			<use xlink:href="#drop1_shadow" class="drop_move2" />
+			<use xlink:href="#drop1" class="drop_move2" />
+		</g>
+		<g id="drop3_2" transform="translate(0,5)">
+			<use xlink:href="#drop1_shadow" class="drop_move3" />
+			<use xlink:href="#drop1" class="drop_move3" />
+		</g>
+		<g id="drop4_2" transform="translate(13,5)">
+			<use xlink:href="#drop1_shadow" class="drop_move4" />
+			<use xlink:href="#drop1" class="drop_move4" />
+		</g>
+		<g id="drop5_2" transform="translate(25,5)">
+			<use xlink:href="#drop1_shadow" class="drop_move5" />
+			<use xlink:href="#drop1" class="drop_move5" />
+		</g>	
+		<use xlink:href="#cloud_group" />
+	</g>
+  </g>
+  <metadata id="metadata4153"/>
+  <defs id="defs3515">
+    <linearGradient id="linearGradient9508">
+      <stop offset="0" id="stop9510" style="stop-color:#0000ff;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="filter4443" x="-0.14" width="1.28" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.61" id="feGaussianBlur4445"/>
+    </filter>
+    <linearGradient id="linearGradient5409-69">
+      <stop offset="0" id="stop5411-42" style="stop-color:#000000;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#linearGradient5409-69" id="linearGradient8653" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+    <linearGradient xlink:href="#linearGradient5409-69" id="linearGradient7501" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+    <filter id="filter4443-6" x="-0.14" width="1.28" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.61" id="feGaussianBlur4445-9"/>
+    </filter>
+    <linearGradient xlink:href="#linearGradient5409-69" id="linearGradient10123" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+    <linearGradient xlink:href="#linearGradient5409-69" id="linearGradient12946" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+    <filter id="filter4443-4" x="-0.14" width="1.28" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.61" id="feGaussianBlur4445-92"/>
+    </filter>
+    <filter id="filter4443-4-2" x="-0.14" width="1.28" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.61" id="feGaussianBlur4445-92-8"/>
+    </filter>
+    <linearGradient xlink:href="#linearGradient5409-69" id="linearGradient13014" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+    <filter id="filter4443-4-2-7" x="-0.14" width="1.28" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.61" id="feGaussianBlur4445-92-8-0"/>
+    </filter>
+    <linearGradient xlink:href="#linearGradient5409-69" id="linearGradient13049" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+    <filter id="filter4443-4-2-3" x="-0.14" width="1.28" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.61" id="feGaussianBlur4445-92-8-1"/>
+    </filter>
+    <linearGradient xlink:href="#linearGradient5409-69" id="linearGradient13068" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+  </defs>
+</svg>

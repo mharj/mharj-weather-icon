@@ -1,0 +1,63 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" id="svg3513" version="1.1">
+  <style id="style5276">
+	.sun_rotate {
+		-webkit-animation:spin 30s linear infinite;
+		-moz-animation:spin 30s linear infinite;
+		animation:spin 30s linear infinite;
+	}
+	.cloud_move {
+		transform-origin: 64px 64px;
+		-webkit-transform-origin: 50% 50%;	
+		-webkit-animation:cloudmove 30s linear infinite;
+		-moz-animation:cloudmove 30s linear infinite;
+		animation:cloudmove 30s linear infinite;		
+	}
+	@-moz-keyframes spin { 
+		100% { -moz-transform: rotate(360deg); } 
+	}
+	@-webkit-keyframes spin { 
+		100% { -webkit-transform: rotate(360deg); } 
+	}
+	@keyframes spin { 
+		100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+	}
+	
+	@-moz-keyframes cloudmove { 
+		0% { -moz-transform: translate(64px,0);fill-opacity:0.0; }
+		50% { fill-opacity:1.0;}
+		100% { -moz-transform: translate(-64px,0);fill-opacity:0.0; } 
+	}
+	@-webkit-keyframes cloudmove { 
+		0% { -webkit-transform: translate(64px,0);fill-opacity:0.0; } 
+		50% { fill-opacity:1.0;}
+		100% { -webkit-transform: translate(-64px,0);fill-opacity:0.0; } 
+	}
+	@keyframes cloudmove { 
+		0% { -webkit-transform: translate(64px,0); transform:translate(64px,0); fill-opacity:0.0;stroke-opacity:0.0;}
+		50% { fill-opacity:1.0;stroke-opacity:1.0;}
+		100% { -webkit-transform: translate(-64px,0); transform:translate(-64px,0); fill-opacity:0.0;stroke-opacity:0.0; }
+	}
+  </style>
+  <g id="sun_group" transform="translate(64,64)">
+    <path id="sun_shadow" class="sun_rotate" d="m-10 -40c-1.2 9.9-6.9 12.23-14.72 6.06 2.68 9.6-1.7 13.92-11.28 11.22 6.15 7.84 3.76 13.49-6.12 14.66 8.69 4.89 8.66 11.05-0.03 15.91 9.9 1.2 12.23 6.9 6.06 14.72 9.6-2.68 13.92 1.7 11.22 11.28 7.84-6.15 13.49-3.76 14.66 6.13 4.89-8.69 11.05-8.66 15.91 0.03 1.2-9.9 6.9-12.23 14.72-6.06-2.68-9.6 1.7-13.92 11.28-11.22-6.15-7.84-3.76-13.49 6.13-14.66-8.69-4.89-8.66-11.05 0.03-15.91-9.9-1.2-12.23-6.9-6.06-14.72-9.6 2.68-13.92-1.7-11.22-11.28-7.84 6.15-13.49 3.76-14.66-6.12-4.89 8.69-11.05 8.66-15.91-0.03z" style="fill-rule:nonzero;fill:url(#linearGradient8653);filter:url(#filter4443);opacity:0.6"/>
+    <path id="sun" class="sun_rotate" d="m-10 -40c-1.2 9.9-6.9 12.23-14.72 6.06 2.68 9.6-1.7 13.92-11.28 11.22 6.15 7.84 3.76 13.49-6.12 14.66 8.69 4.89 8.66 11.05-0.03 15.91 9.9 1.2 12.23 6.9 6.06 14.72 9.6-2.68 13.92 1.7 11.22 11.28 7.84-6.15 13.49-3.76 14.66 6.13 4.89-8.69 11.05-8.66 15.91 0.03 1.2-9.9 6.9-12.23 14.72-6.06-2.68-9.6 1.7-13.92 11.28-11.22-6.15-7.84-3.76-13.49 6.13-14.66-8.69-4.89-8.66-11.05 0.03-15.91-9.9-1.2-12.23-6.9-6.06-14.72-9.6 2.68-13.92-1.7-11.22-11.28-7.84 6.15-13.49 3.76-14.66-6.12-4.89 8.69-11.05 8.66-15.91-0.03z" style="fill-rule:nonzero;fill:yellow"/>
+  </g>
+  <g id="cloud_group" transform="translate(64,64)">
+    <path id="cloud_shadow" class="cloud_move" d="m-15 0c-0.68362 0-1.41363 0.032-2.15625 0.125-11.86 1.492-11.5 11.4375-11.5 11.4375-4.85767 0.807-8.8125 4.9493-8.8125 9.2812 0 4.3318 5.05982 8.1665 9.3125 9.2813 2.52965 0.6631 5.84375 0 5.84375 0 1.50162 2.5882 6.45323 4.3125 9.90625 4.3125 5.63035 0 11.41728-1.8258 12.75-4.3125 0 0 23.31676 1.8236 28.15619 0 7.04519-2.6548 4.84386-10.9457 0.15625-13.75-4.68757-2.8043-10.81244-0.8438-10.81244-0.8438 0 0-0.0271-5.7092-6.65625-8.4375-6.62918-2.7282-12.21875 3.3125-12.21875 3.3125 0 0-3.71441-10.3444-13.96875-10.4062z" style="fill-rule:nonzero;fill:url(#linearGradient7501);filter:url(#filter4443);opacity:0.6"/>
+    <path id="cloud" class="cloud_move" d="m-15 0c-0.68362 0-1.41363 0.032-2.15625 0.125-11.86 1.492-11.5 11.4375-11.5 11.4375-4.85767 0.807-8.8125 4.9493-8.8125 9.2812 0 4.3318 5.05982 8.1665 9.3125 9.2813 2.52965 0.6631 5.84375 0 5.84375 0 1.50162 2.5882 6.45323 4.3125 9.90625 4.3125 5.63035 0 11.41728-1.8258 12.75-4.3125 0 0 23.31676 1.8236 28.15619 0 7.04519-2.6548 4.84386-10.9457 0.15625-13.75-4.68757-2.8043-10.81244-0.8438-10.81244-0.8438 0 0-0.0271-5.7092-6.65625-8.4375-6.62918-2.7282-12.21875 3.3125-12.21875 3.3125 0 0-3.71441-10.3444-13.96875-10.4062z" style="fill-opacity:1;fill-rule:nonzero;fill:#fffaff"/>
+  </g>
+  <metadata id="metadata4153"/>
+  <defs id="defs3515">
+    <linearGradient id="linearGradient9508">
+      <stop offset="0" id="stop9510" style="stop-color:#0000ff;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="filter4443" x="-0.14" width="1.28" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.61" id="feGaussianBlur4445"/>
+    </filter>
+    <linearGradient id="linearGradient5409-69">
+      <stop offset="0" id="stop5411-42" style="stop-color:#000000;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#linearGradient5409-69" id="linearGradient8653" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+    <linearGradient xlink:href="#linearGradient5409-69" id="linearGradient7501" gradientUnits="userSpaceOnUse" x1="-438.69" y1="461.13" x2="-335.09" y2="461.13"/>
+  </defs>
+</svg>

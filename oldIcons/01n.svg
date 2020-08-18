@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="128" height="128" id="svg3513" version="1.1" inkscape:version="0.91" sodipodi:docname="1">
+  <defs id="defs3515">
+    <filter inkscape:collect="always" id="filter4755" x="-0.19" width="1.39" y="-0.14" height="1.28" color-interpolation-filters="sRGB">
+      <feGaussianBlur inkscape:collect="always" stdDeviation="4.62" id="feGaussianBlur4757"/>
+    </filter>
+    <linearGradient id="linearGradient5409-899" osb:paint="solid">
+      <stop offset="0" id="stop5411-799" style="stop-color:#808000;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient5409-899" id="linearGradient8588" gradientUnits="userSpaceOnUse" x1="-272.1" y1="461.13" x2="-191.47" y2="461.13"/>
+  </defs>
+  <g id="moongroup" transform="translate(292.98245,-396.49123)">
+    <path d="m-220.27 421.13c-22.09 0-40 17.91-40 40 0 22.09 17.91 40 40 40 6.07 0 11.82-1.36 16.97-3.78-13.6-6.39-23.03-20.2-23.03-36.22 0-16.02 9.43-29.83 23.03-36.22-5.15-2.42-10.9-3.78-16.97-3.78z" id="moon_shadow" inkscape:connector-curvature="0" style="fill-rule:nonzero;fill:url(#linearGradient8588);filter:url(#filter4755);opacity:0.6"/>
+    <path id="moon" d="m-220.27 421.13c-22.09 0-40 17.91-40 40 0 22.09 17.91 40 40 40 6.07 0 11.82-1.36 16.97-3.78-13.6-6.39-23.03-20.2-23.03-36.22 0-16.02 9.43-29.83 23.03-36.22-5.15-2.42-10.9-3.78-16.97-3.78z" inkscape:connector-curvature="0" style="fill-rule:nonzero;fill:#fff"/>
+  </g>
+</svg>
